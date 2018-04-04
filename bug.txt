@@ -1,0 +1,9 @@
+What should I do if I only want to change the selected text font?
+
+Prompt user to save change before quiting
+
+Save as should open dialog on the directory where file last save
+
+Make it support Chinese
+
+
