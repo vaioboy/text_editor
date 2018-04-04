@@ -5,6 +5,10 @@
 #include <QFileDialog>
 #include <QTextStream>
 #include <QDateTime>
+#include <QFont>
+#include <QFontDialog>
+#include <QColor>
+#include <QColorDialog>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -109,12 +113,20 @@ void MainWindow::on_actionRedo_triggered()
 
 void MainWindow::on_actionFont_triggered()
 {
-
+    bool ok;
+    QFont font = QFontDialog::getFont(&ok, this);
+    if(ok){
+        ui->textEdit->setFont(font);
+    }
 }
 
 void MainWindow::on_actionColor_triggered()
 {
-
+    QColor color = QColorDialog::getColor();
+    if(color.isValid())
+    {
+        ui->textEdit->setTextColor(color);
+    }
 }
 
 void MainWindow::on_actionAbout_Text_Editor_triggered()
