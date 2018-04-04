@@ -1,0 +1,21 @@
+1.Find icon resource
+2.Give it a name Text Editor
+3.Function
+	file:
+		new
+		open
+		save
+		save as
+	edit
+		cut
+		copy
+		paste
+		font
+		color
+		
+	control
+		redo
+		undo
+	information
+		about
+4.Remove 

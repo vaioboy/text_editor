@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/prefix">
+        <file>icon/copy.png</file>
+        <file>icon/file.png</file>
+        <file>icon/folder.png</file>
+        <file>icon/paste.png</file>
+        <file>icon/redo.png</file>
+        <file>icon/save.png</file>
+        <file>icon/save-1.png</file>
+        <file>icon/scissors.png</file>
+        <file>icon/undo.png</file>
+    </qresource>
+</RCC>
